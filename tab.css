@@ -1,0 +1,41 @@
+body{
+    background-color: #069A8E !important;
+    color: #D5FFD0 !important;
+}
+.container-main{
+    position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.tab-menu{
+    width: 40%;
+}
+.title-box{
+    background-color: #055049;
+    color: #D5FFD0;
+    padding:  0.7rem 0 0.5rem 1rem;
+  
+   
+}
+.title-box h3{
+    margin-right: 2rem;
+    cursor: pointer;
+    font-family: 'Noto Serif Telugu', serif;
+}
+.main-header{
+    font-size: 2rem;
+    margin: 3rem 0;
+}
+.main-header h1{
+    display: flex;
+    font-family: 'Merriweather', serif;
+}
+
+.title-box-content{
+    background-color: #A1E3D8;
+    padding: 0.7rem;
+    color: #055049;
+    
+    
+}
