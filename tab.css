@@ -4,24 +4,31 @@ body{
 }
 .container-main{
     position: absolute;
-display: flex;
-justify-content: center;
-align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+width: 50%;
 }
 .tab-menu{
-    width: 40%;
+    /* width: 40%; */
 }
 .title-box{
     background-color: #055049;
     color: #D5FFD0;
-    padding:  0.7rem 0 0.5rem 1rem;
+    border-top-right-radius: 30px;
+    /* padding:  0.7rem 0 0.5rem 1rem; */
   
    
 }
-.title-box h3{
-    margin-right: 2rem;
+.title-box button{
+    /* margin-right: 2rem; */
+    font-size: 1.5rem;
     cursor: pointer;
     font-family: 'Noto Serif Telugu', serif;
+    border: none;
+    background-color: #055049;
+    color: #D5FFD0;
 }
 .main-header{
     font-size: 2rem;
@@ -30,12 +37,29 @@ align-items: center;
 .main-header h1{
     display: flex;
     font-family: 'Merriweather', serif;
+    color: white;
 }
 
 .title-box-content{
     background-color: #A1E3D8;
     padding: 0.7rem;
-    color: #055049;
+    color: #055049;   
+    border-bottom-left-radius: 30px;
+}
+.title-box-content div{
+    display: none;
+}
+.title-box-content .active{
+    display: block;
+}
+.btn-box {
+    margin: 1rem 2rem;
+}
+
+h4{
+    color: black !important;
+    border-left: 3px solid #055049;
+    padding-left: 0.7rem;
     
-    
+
 }
